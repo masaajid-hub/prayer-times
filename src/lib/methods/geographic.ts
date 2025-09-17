@@ -35,6 +35,11 @@ const SPECIFIC_REGIONS: Record<
   },
 
   // Southeast Asian Countries
+  kelantan_malaysia: {
+    bounds: { north: 6.5, south: 4.5, east: 102.5, west: 101.0 },
+    method: "JAKIMKN",
+  },
+
   malaysia: {
     bounds: { north: 7.5, south: 0.5, east: 119.5, west: 99.5 },
     method: "JAKIM",
@@ -103,7 +108,7 @@ const REGIONAL_METHOD_PREFERENCES: Record<
 
   southeast_asia: {
     primary: "JAKIM",
-    alternatives: ["Kemenag", "Singapore", "MWL"],
+    alternatives: ["JAKIMKN", "Kemenag", "Singapore", "MWL"],
     reason: "JAKIM method is optimized for tropical latitudes",
   },
 
@@ -218,6 +223,7 @@ export function isMethodSuitableForLocation(
   if (latitude < 25) {
     const tropicalMethods: MethodCode[] = [
       "JAKIM",
+      "JAKIMKN",
       "Kemenag",
       "Singapore",
       "MWL",
@@ -228,7 +234,7 @@ export function isMethodSuitableForLocation(
     return {
       suitable: false,
       reason:
-        "Method may not be optimal for tropical regions. Consider JAKIM or Kemenag.",
+        "Method may not be optimal for tropical regions. Consider JAKIM, JAKIMKN, or Kemenag.",
     };
   }
 

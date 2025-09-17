@@ -16,7 +16,7 @@ import { join } from "path";
 const METHOD_TIERS = {
   // Tier 1: Official Authority Data (high accuracy expectations)
   TIER_1: {
-    methods: ["Qatar", "ISNA", "JAKIM"],
+    methods: ["Qatar", "ISNA", "JAKIM", "JAKIMKN"],
     tolerance: 5, // Strict: max 5 minutes for official data
     tier1Target: 0.5,
     tier2Target: 0.8,
@@ -116,6 +116,15 @@ const METHOD_METADATA = {
       "Validates against official Malaysian government calculation authority data",
     authority: "Jabatan Kemajuan Islam Malaysia (JAKIM)",
     location: "Kuala Perlis, Malaysia",
+    hasAuthority: true,
+    hasLocation: true,
+  },
+  JAKIMKN: {
+    name: "JAKIMKN",
+    description:
+      "Validates against official Malaysian government calculation authority data - Kelantan variant",
+    authority: "Jabatan Kemajuan Islam Malaysia (JAKIM) - Kelantan",
+    location: "Rantau Panjang, Kelantan, Malaysia",
     hasAuthority: true,
     hasLocation: true,
   },
@@ -281,6 +290,7 @@ function getTestFileName(method) {
 function getDataFileName(method) {
   if (method === "UmmAlQura") return "UmmAlQura";
   if (method === "JAKIM") return "JAKIM";
+  if (method === "JAKIMKN") return "JAKIMKN";
   if (method === "ISNA") return "ISNA";
   if (method === "MWL") return "MWL";
   return method;
@@ -559,6 +569,7 @@ function getMethodFromDataFile(dataFileName) {
   const mapping = {
     UmmAlQura: "UmmAlQura",
     JAKIM: "JAKIM",
+    JAKIMKN: "JAKIMKN",
     ISNA: "ISNA",
     MWL: "MWL",
   };

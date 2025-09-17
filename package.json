@@ -1,7 +1,7 @@
 {
   "name": "@masaajid/prayer-times",
-  "version": "1.0.0",
-  "description": "Precise TypeScript prayer times library with Jean Meeus algorithms, object-based configuration, and multiple supported methods",
+  "version": "1.0.1",
+  "description": "Precise TypeScript adhan / prayer times library with Jean Meeus algorithms, object-based configuration, and multiple supported methods",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",

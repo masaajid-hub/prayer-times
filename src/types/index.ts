@@ -45,6 +45,7 @@ export type MethodCode =
   | "Qatar" // Qatar
   | "Dubai" // Dubai
   | "JAKIM" // Jabatan Kemajuan Islam Malaysia
+  | "JAKIMKN" // Jabatan Kemajuan Islam Malaysia - Kelantan
   | "Kemenag" // Kementerian Agama, Indonesia
   | "Singapore" // Singapore
   | "France12" // France (UOIF 12°)
