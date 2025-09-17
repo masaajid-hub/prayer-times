@@ -66,7 +66,15 @@ export const CALCULATION_METHODS: MethodRegistry = {
     isha: 18,
     maghrib: "1 min",
     midnight: "Standard",
-    adjustments: { fajr: 1, dhuhr: 2, asr: 1, isha: 1 }, // Fine-tuned for Perlis JAKIM official data
+    adjustments: { fajr: 0.5, dhuhr: 1.5, maghrib: -0.5, asr: 0.5, isha: 0.5 }, // Fine-tuned for Perlis JAKIM official data
+  },
+
+  JAKIMKN: {
+    fajr: 18,
+    isha: 17,
+    maghrib: "1 min",
+    midnight: "Standard",
+    adjustments: { fajr: 0.5, dhuhr: 1.5, maghrib: -0.5, asr: 0.5, isha: 0.5 }, // Fine-tuned for Kelantan JAKIM official data
   },
 
   Kemenag: {
@@ -195,6 +203,7 @@ export const METHOD_NAMES: Record<MethodCode, string> = {
   Qatar: "Qatar",
   Dubai: "Dubai",
   JAKIM: "Jabatan Kemajuan Islam Malaysia",
+  JAKIMKN: "Jabatan Kemajuan Islam Malaysia - Kelantan",
   Kemenag: "Kementerian Agama, Indonesia",
   Singapore: "Singapore",
   France12: "France (UOIF 12°)",
@@ -221,6 +230,8 @@ export const METHOD_DESCRIPTIONS: Record<MethodCode, string> = {
   Dubai: "Method used in Dubai and UAE.",
   JAKIM:
     "Official method of Malaysia. Uses higher angles for tropical regions.",
+  JAKIMKN:
+    "Official method of Malaysia - Kelantan variant. Uses 17° for Isha prayer.",
   Kemenag: "Official method of Indonesia.",
   Singapore: "Official method used in Singapore.",
   France12: "UOIF method. Uses 12° for both Fajr and Isha.",
@@ -272,7 +283,7 @@ export function getMethodsByRegion(region: string): MethodCode[] {
     north_america: ["ISNA", "MWL"],
     europe: ["MWL", "France15", "France12", "France18", "Turkey", "Russia"],
     middle_east: ["MWL", "Egypt", "UmmAlQura", "Qatar", "Dubai"],
-    southeast_asia: ["JAKIM", "Kemenag", "Singapore", "MWL"],
+    southeast_asia: ["JAKIM", "JAKIMKN", "Kemenag", "Singapore", "MWL"],
     africa: ["MWL", "Egypt"],
     south_asia: ["MWL", "Kemenag"],
   };
