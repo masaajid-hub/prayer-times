@@ -1,0 +1,40 @@
+City,Gregorian Date,Hijri Date,Fajr,Sunrise,Dhuhr,Asr,Maghrib,Isha
+Cairo,2025-09-01,9 Rabi' al-awwal 1447,5:02 AM,6:32 AM,12:55 PM,4:29 PM,7:17 PM,8:37 PM
+Cairo,2025-09-02,10 Rabi' al-awwal 1447,5:03 AM,6:32 AM,12:55 PM,4:28 PM,7:16 PM,8:36 PM
+Cairo,2025-09-03,11 Rabi' al-awwal 1447,5:03 AM,6:33 AM,12:54 PM,4:28 PM,7:15 PM,8:34 PM
+Cairo,2025-09-04,12 Rabi' al-awwal 1447,5:04 AM,6:33 AM,12:54 PM,4:27 PM,7:14 PM,8:33 PM
+Cairo,2025-09-05,13 Rabi' al-awwal 1447,5:05 AM,6:34 AM,12:54 PM,4:26 PM,7:13 PM,8:32 PM
+Cairo,2025-09-06,14 Rabi' al-awwal 1447,5:06 AM,6:35 AM,12:53 PM,4:26 PM,7:11 PM,8:30 PM
+Cairo,2025-09-07,15 Rabi' al-awwal 1447,5:06 AM,6:35 AM,12:53 PM,4:25 PM,7:10 PM,8:29 PM
+Cairo,2025-09-08,16 Rabi' al-awwal 1447,5:07 AM,6:36 AM,12:53 PM,4:25 PM,7:09 PM,8:28 PM
+Cairo,2025-09-09,17 Rabi' al-awwal 1447,5:08 AM,6:36 AM,12:52 PM,4:24 PM,7:08 PM,8:26 PM
+Cairo,2025-09-10,18 Rabi' al-awwal 1447,5:08 AM,6:37 AM,12:52 PM,4:23 PM,7:06 PM,8:25 PM
+Cairo,2025-09-11,19 Rabi' al-awwal 1447,5:09 AM,6:37 AM,12:51 PM,4:23 PM,7:05 PM,8:24 PM
+Cairo,2025-09-12,20 Rabi' al-awwal 1447,5:10 AM,6:38 AM,12:51 PM,4:22 PM,7:04 PM,8:22 PM
+Cairo,2025-09-13,21 Rabi' al-awwal 1447,5:10 AM,6:38 AM,12:51 PM,4:21 PM,7:03 PM,8:21 PM
+Cairo,2025-09-14,22 Rabi' al-awwal 1447,5:11 AM,6:39 AM,12:50 PM,4:21 PM,7:02 PM,8:20 PM
+Cairo,2025-09-15,23 Rabi' al-awwal 1447,5:12 AM,6:39 AM,12:50 PM,4:20 PM,7:00 PM,8:18 PM
+Cairo,2025-09-16,24 Rabi' al-awwal 1447,5:12 AM,6:40 AM,12:50 PM,4:19 PM,6:59 PM,8:17 PM
+Cairo,2025-09-17,25 Rabi' al-awwal 1447,5:13 AM,6:40 AM,12:49 PM,4:18 PM,6:58 PM,8:15 PM
+Cairo,2025-09-18,26 Rabi' al-awwal 1447,5:14 AM,6:41 AM,12:49 PM,4:18 PM,6:56 PM,8:14 PM
+Cairo,2025-09-19,27 Rabi' al-awwal 1447,5:14 AM,6:42 AM,12:49 PM,4:17 PM,6:55 PM,8:13 PM
+Cairo,2025-09-20,28 Rabi' al-awwal 1447,5:15 AM,6:42 AM,12:48 PM,4:16 PM,6:54 PM,8:11 PM
+Cairo,2025-09-21,29 Rabi' al-awwal 1447,5:16 AM,6:43 AM,12:48 PM,4:16 PM,6:53 PM,8:10 PM
+Cairo,2025-09-22,30 Rabi' al-awwal 1447,5:16 AM,6:43 AM,12:48 PM,4:15 PM,6:51 PM,8:09 PM
+Cairo,2025-09-23,1 Rabi' al-thani 1447,5:17 AM,6:44 AM,12:47 PM,4:14 PM,6:50 PM,8:08 PM
+Cairo,2025-09-24,2 Rabi' al-thani 1447,5:18 AM,6:44 AM,12:47 PM,4:13 PM,6:49 PM,8:06 PM
+Cairo,2025-09-25,3 Rabi' al-thani 1447,5:18 AM,6:45 AM,12:47 PM,4:12 PM,6:48 PM,8:05 PM
+Cairo,2025-09-26,4 Rabi' al-thani 1447,5:19 AM,6:45 AM,12:46 PM,4:12 PM,6:46 PM,8:04 PM
+Cairo,2025-09-27,5 Rabi' al-thani 1447,5:19 AM,6:46 AM,12:46 PM,4:11 PM,6:45 PM,8:02 PM
+Cairo,2025-09-28,6 Rabi' al-thani 1447,5:20 AM,6:47 AM,12:46 PM,4:10 PM,6:44 PM,8:01 PM
+Cairo,2025-09-29,7 Rabi' al-thani 1447,5:21 AM,6:47 AM,12:45 PM,4:09 PM,6:43 PM,8:00 PM
+Cairo,2025-09-30,8 Rabi' al-thani 1447,5:21 AM,6:48 AM,12:45 PM,4:09 PM,6:42 PM,7:59 PM
+
+---
+
+Source: https://www.esa.gov.eg/monthlymwaket.aspx
+Date Fetch: 15 Sept 2025
+City: Cairo, Egypt
+Method: Egypt
+latitude: 30.0312784
+Longitude: 31.2125945

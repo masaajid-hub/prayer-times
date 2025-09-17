@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "source": "Indonesia 2025 Official Prayer Times",
+    "authority": "Kementerian Agama Republik Indonesia",
+    "official_url": "https://bimasislam.kemenag.go.id/web/jadwalshalat",
+    "fetched_date": "2025-09-15",
+    "tier": 1,
+    "quality": "official_government",
+    "accuracy_target": "±1 minute",
+    "data_year": "2025",
+    "method": "Kemenag",
+    "coordinates": {
+      "latitude": -6.2297209,
+      "longitude": 106.664705
+    },
+    "timezone": "Asia/Jakarta",
+    "location": "Jakarta, Indonesia",
+    "asr_school": "Standard",
+    "data_count": 30,
+    "notes": "Official Indonesian government Islamic authority data"
+  },
+  "testCases": [
+    {
+      "date": "2025-09-01",
+      "input": {
+        "date": "2025-09-01",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-01T04:38:00+07:00",
+        "syuruk": "2025-09-01T05:50:00+07:00",
+        "dhuhr": "2025-09-01T11:56:00+07:00",
+        "asr": "2025-09-01T15:14:00+07:00",
+        "maghrib": "2025-09-01T17:56:00+07:00",
+        "isha": "2025-09-01T19:05:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "input": {
+        "date": "2025-09-02",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-02T04:37:00+07:00",
+        "syuruk": "2025-09-02T05:49:00+07:00",
+        "dhuhr": "2025-09-02T11:56:00+07:00",
+        "asr": "2025-09-02T15:13:00+07:00",
+        "maghrib": "2025-09-02T17:56:00+07:00",
+        "isha": "2025-09-02T19:04:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "input": {
+        "date": "2025-09-03",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-03T04:37:00+07:00",
+        "syuruk": "2025-09-03T05:49:00+07:00",
+        "dhuhr": "2025-09-03T11:56:00+07:00",
+        "asr": "2025-09-03T15:12:00+07:00",
+        "maghrib": "2025-09-03T17:55:00+07:00",
+        "isha": "2025-09-03T19:04:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "input": {
+        "date": "2025-09-04",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-04T04:37:00+07:00",
+        "syuruk": "2025-09-04T05:48:00+07:00",
+        "dhuhr": "2025-09-04T11:55:00+07:00",
+        "asr": "2025-09-04T15:12:00+07:00",
+        "maghrib": "2025-09-04T17:55:00+07:00",
+        "isha": "2025-09-04T19:04:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "input": {
+        "date": "2025-09-05",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-05T04:36:00+07:00",
+        "syuruk": "2025-09-05T05:48:00+07:00",
+        "dhuhr": "2025-09-05T11:55:00+07:00",
+        "asr": "2025-09-05T15:11:00+07:00",
+        "maghrib": "2025-09-05T17:55:00+07:00",
+        "isha": "2025-09-05T19:04:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "input": {
+        "date": "2025-09-06",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-06T04:36:00+07:00",
+        "syuruk": "2025-09-06T05:47:00+07:00",
+        "dhuhr": "2025-09-06T11:55:00+07:00",
+        "asr": "2025-09-06T15:11:00+07:00",
+        "maghrib": "2025-09-06T17:55:00+07:00",
+        "isha": "2025-09-06T19:03:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "input": {
+        "date": "2025-09-07",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-07T04:35:00+07:00",
+        "syuruk": "2025-09-07T05:47:00+07:00",
+        "dhuhr": "2025-09-07T11:54:00+07:00",
+        "asr": "2025-09-07T15:10:00+07:00",
+        "maghrib": "2025-09-07T17:55:00+07:00",
+        "isha": "2025-09-07T19:03:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "input": {
+        "date": "2025-09-08",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-08T04:35:00+07:00",
+        "syuruk": "2025-09-08T05:46:00+07:00",
+        "dhuhr": "2025-09-08T11:54:00+07:00",
+        "asr": "2025-09-08T15:09:00+07:00",
+        "maghrib": "2025-09-08T17:54:00+07:00",
+        "isha": "2025-09-08T19:03:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "input": {
+        "date": "2025-09-09",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-09T04:34:00+07:00",
+        "syuruk": "2025-09-09T05:46:00+07:00",
+        "dhuhr": "2025-09-09T11:54:00+07:00",
+        "asr": "2025-09-09T15:09:00+07:00",
+        "maghrib": "2025-09-09T17:54:00+07:00",
+        "isha": "2025-09-09T19:03:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "input": {
+        "date": "2025-09-10",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-10T04:34:00+07:00",
+        "syuruk": "2025-09-10T05:45:00+07:00",
+        "dhuhr": "2025-09-10T11:53:00+07:00",
+        "asr": "2025-09-10T15:08:00+07:00",
+        "maghrib": "2025-09-10T17:54:00+07:00",
+        "isha": "2025-09-10T19:03:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "input": {
+        "date": "2025-09-11",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-11T04:33:00+07:00",
+        "syuruk": "2025-09-11T05:45:00+07:00",
+        "dhuhr": "2025-09-11T11:53:00+07:00",
+        "asr": "2025-09-11T15:07:00+07:00",
+        "maghrib": "2025-09-11T17:54:00+07:00",
+        "isha": "2025-09-11T19:02:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "input": {
+        "date": "2025-09-12",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-12T04:33:00+07:00",
+        "syuruk": "2025-09-12T05:44:00+07:00",
+        "dhuhr": "2025-09-12T11:52:00+07:00",
+        "asr": "2025-09-12T15:07:00+07:00",
+        "maghrib": "2025-09-12T17:54:00+07:00",
+        "isha": "2025-09-12T19:02:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "input": {
+        "date": "2025-09-13",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-13T04:32:00+07:00",
+        "syuruk": "2025-09-13T05:44:00+07:00",
+        "dhuhr": "2025-09-13T11:52:00+07:00",
+        "asr": "2025-09-13T15:06:00+07:00",
+        "maghrib": "2025-09-13T17:53:00+07:00",
+        "isha": "2025-09-13T19:02:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "input": {
+        "date": "2025-09-14",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-14T04:32:00+07:00",
+        "syuruk": "2025-09-14T05:43:00+07:00",
+        "dhuhr": "2025-09-14T11:52:00+07:00",
+        "asr": "2025-09-14T15:05:00+07:00",
+        "maghrib": "2025-09-14T17:53:00+07:00",
+        "isha": "2025-09-14T19:02:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "input": {
+        "date": "2025-09-15",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-15T04:31:00+07:00",
+        "syuruk": "2025-09-15T05:43:00+07:00",
+        "dhuhr": "2025-09-15T11:51:00+07:00",
+        "asr": "2025-09-15T15:04:00+07:00",
+        "maghrib": "2025-09-15T17:53:00+07:00",
+        "isha": "2025-09-15T19:02:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "input": {
+        "date": "2025-09-16",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-16T04:31:00+07:00",
+        "syuruk": "2025-09-16T05:42:00+07:00",
+        "dhuhr": "2025-09-16T11:51:00+07:00",
+        "asr": "2025-09-16T15:04:00+07:00",
+        "maghrib": "2025-09-16T17:53:00+07:00",
+        "isha": "2025-09-16T19:01:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "input": {
+        "date": "2025-09-17",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-17T04:30:00+07:00",
+        "syuruk": "2025-09-17T05:42:00+07:00",
+        "dhuhr": "2025-09-17T11:51:00+07:00",
+        "asr": "2025-09-17T15:03:00+07:00",
+        "maghrib": "2025-09-17T17:53:00+07:00",
+        "isha": "2025-09-17T19:01:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "input": {
+        "date": "2025-09-18",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-18T04:30:00+07:00",
+        "syuruk": "2025-09-18T05:41:00+07:00",
+        "dhuhr": "2025-09-18T11:50:00+07:00",
+        "asr": "2025-09-18T15:02:00+07:00",
+        "maghrib": "2025-09-18T17:53:00+07:00",
+        "isha": "2025-09-18T19:01:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "input": {
+        "date": "2025-09-19",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-19T04:29:00+07:00",
+        "syuruk": "2025-09-19T05:41:00+07:00",
+        "dhuhr": "2025-09-19T11:50:00+07:00",
+        "asr": "2025-09-19T15:01:00+07:00",
+        "maghrib": "2025-09-19T17:52:00+07:00",
+        "isha": "2025-09-19T19:01:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "input": {
+        "date": "2025-09-20",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-20T04:29:00+07:00",
+        "syuruk": "2025-09-20T05:40:00+07:00",
+        "dhuhr": "2025-09-20T11:50:00+07:00",
+        "asr": "2025-09-20T15:00:00+07:00",
+        "maghrib": "2025-09-20T17:52:00+07:00",
+        "isha": "2025-09-20T19:01:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-21",
+      "input": {
+        "date": "2025-09-21",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-21T04:28:00+07:00",
+        "syuruk": "2025-09-21T05:40:00+07:00",
+        "dhuhr": "2025-09-21T11:49:00+07:00",
+        "asr": "2025-09-21T15:00:00+07:00",
+        "maghrib": "2025-09-21T17:52:00+07:00",
+        "isha": "2025-09-21T19:00:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "input": {
+        "date": "2025-09-22",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-22T04:28:00+07:00",
+        "syuruk": "2025-09-22T05:39:00+07:00",
+        "dhuhr": "2025-09-22T11:49:00+07:00",
+        "asr": "2025-09-22T14:59:00+07:00",
+        "maghrib": "2025-09-22T17:52:00+07:00",
+        "isha": "2025-09-22T19:00:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "input": {
+        "date": "2025-09-23",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-23T04:27:00+07:00",
+        "syuruk": "2025-09-23T05:39:00+07:00",
+        "dhuhr": "2025-09-23T11:49:00+07:00",
+        "asr": "2025-09-23T14:58:00+07:00",
+        "maghrib": "2025-09-23T17:52:00+07:00",
+        "isha": "2025-09-23T19:00:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "input": {
+        "date": "2025-09-24",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-24T04:27:00+07:00",
+        "syuruk": "2025-09-24T05:38:00+07:00",
+        "dhuhr": "2025-09-24T11:48:00+07:00",
+        "asr": "2025-09-24T14:57:00+07:00",
+        "maghrib": "2025-09-24T17:51:00+07:00",
+        "isha": "2025-09-24T19:00:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "input": {
+        "date": "2025-09-25",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-25T04:26:00+07:00",
+        "syuruk": "2025-09-25T05:38:00+07:00",
+        "dhuhr": "2025-09-25T11:48:00+07:00",
+        "asr": "2025-09-25T14:56:00+07:00",
+        "maghrib": "2025-09-25T17:51:00+07:00",
+        "isha": "2025-09-25T19:00:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "input": {
+        "date": "2025-09-26",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-26T04:26:00+07:00",
+        "syuruk": "2025-09-26T05:37:00+07:00",
+        "dhuhr": "2025-09-26T11:48:00+07:00",
+        "asr": "2025-09-26T14:55:00+07:00",
+        "maghrib": "2025-09-26T17:51:00+07:00",
+        "isha": "2025-09-26T19:00:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "input": {
+        "date": "2025-09-27",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-27T04:25:00+07:00",
+        "syuruk": "2025-09-27T05:37:00+07:00",
+        "dhuhr": "2025-09-27T11:47:00+07:00",
+        "asr": "2025-09-27T14:55:00+07:00",
+        "maghrib": "2025-09-27T17:51:00+07:00",
+        "isha": "2025-09-27T18:59:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "input": {
+        "date": "2025-09-28",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-28T04:24:00+07:00",
+        "syuruk": "2025-09-28T05:36:00+07:00",
+        "dhuhr": "2025-09-28T11:47:00+07:00",
+        "asr": "2025-09-28T14:54:00+07:00",
+        "maghrib": "2025-09-28T17:51:00+07:00",
+        "isha": "2025-09-28T18:59:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "input": {
+        "date": "2025-09-29",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-29T04:24:00+07:00",
+        "syuruk": "2025-09-29T05:36:00+07:00",
+        "dhuhr": "2025-09-29T11:47:00+07:00",
+        "asr": "2025-09-29T14:53:00+07:00",
+        "maghrib": "2025-09-29T17:51:00+07:00",
+        "isha": "2025-09-29T18:59:00+07:00"
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "input": {
+        "date": "2025-09-30",
+        "method": "Kemenag",
+        "coordinates": [-6.2297209, 106.664705],
+        "timezone": "Asia/Jakarta",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-30T04:23:00+07:00",
+        "syuruk": "2025-09-30T05:35:00+07:00",
+        "dhuhr": "2025-09-30T11:46:00+07:00",
+        "asr": "2025-09-30T14:52:00+07:00",
+        "maghrib": "2025-09-30T17:50:00+07:00",
+        "isha": "2025-09-30T18:59:00+07:00"
+      }
+    }
+  ]
+}

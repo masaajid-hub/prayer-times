@@ -1,0 +1,653 @@
+{
+  "metadata": {
+    "source": "UAE 2025 Official Prayer Times",
+    "authority": "General Authority of Islamic Affairs & Endowments, UAE",
+    "official_url": "https://www.awqaf.gov.ae/prayer-times",
+    "fetched_date": "2025-09-15",
+    "tier": 1,
+    "quality": "official_government",
+    "accuracy_target": "±1 minute",
+    "data_year": "2025",
+    "method": "Dubai",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    },
+    "timezone": "Asia/Dubai",
+    "location": "Dubai, UAE",
+    "asr_school": "Standard",
+    "data_count": 30
+  },
+  "testCases": [
+    {
+      "date": "2025-09-01",
+      "day_name": "Monday",
+      "hijri_date": "9/3/1447",
+      "input": {
+        "date": "2025-09-01",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-01T04:40:00+04:00",
+        "syuruk": "2025-09-01T05:56:00+04:00",
+        "dhuhr": "2025-09-01T12:22:00+04:00",
+        "asr": "2025-09-01T15:49:00+04:00",
+        "maghrib": "2025-09-01T18:41:00+04:00",
+        "isha": "2025-09-01T19:57:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "day_name": "Tuesday",
+      "hijri_date": "10/3/1447",
+      "input": {
+        "date": "2025-09-02",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-02T04:41:00+04:00",
+        "syuruk": "2025-09-02T05:57:00+04:00",
+        "dhuhr": "2025-09-02T12:21:00+04:00",
+        "asr": "2025-09-02T15:49:00+04:00",
+        "maghrib": "2025-09-02T18:40:00+04:00",
+        "isha": "2025-09-02T19:56:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "day_name": "Wednesday",
+      "hijri_date": "11/3/1447",
+      "input": {
+        "date": "2025-09-03",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-03T04:41:00+04:00",
+        "syuruk": "2025-09-03T05:57:00+04:00",
+        "dhuhr": "2025-09-03T12:21:00+04:00",
+        "asr": "2025-09-03T15:48:00+04:00",
+        "maghrib": "2025-09-03T18:39:00+04:00",
+        "isha": "2025-09-03T19:55:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "day_name": "Thursday",
+      "hijri_date": "12/3/1447",
+      "input": {
+        "date": "2025-09-04",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-04T04:42:00+04:00",
+        "syuruk": "2025-09-04T05:57:00+04:00",
+        "dhuhr": "2025-09-04T12:21:00+04:00",
+        "asr": "2025-09-04T15:48:00+04:00",
+        "maghrib": "2025-09-04T18:38:00+04:00",
+        "isha": "2025-09-04T19:54:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "day_name": "Friday",
+      "hijri_date": "13/3/1447",
+      "input": {
+        "date": "2025-09-05",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-05T04:42:00+04:00",
+        "syuruk": "2025-09-05T05:58:00+04:00",
+        "dhuhr": "2025-09-05T12:20:00+04:00",
+        "asr": "2025-09-05T15:47:00+04:00",
+        "maghrib": "2025-09-05T18:37:00+04:00",
+        "isha": "2025-09-05T19:52:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "day_name": "Saturday",
+      "hijri_date": "14/3/1447",
+      "input": {
+        "date": "2025-09-06",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-06T04:43:00+04:00",
+        "syuruk": "2025-09-06T05:58:00+04:00",
+        "dhuhr": "2025-09-06T12:20:00+04:00",
+        "asr": "2025-09-06T15:47:00+04:00",
+        "maghrib": "2025-09-06T18:36:00+04:00",
+        "isha": "2025-09-06T19:51:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "day_name": "Sunday",
+      "hijri_date": "15/3/1447",
+      "input": {
+        "date": "2025-09-07",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-07T04:43:00+04:00",
+        "syuruk": "2025-09-07T05:58:00+04:00",
+        "dhuhr": "2025-09-07T12:20:00+04:00",
+        "asr": "2025-09-07T15:47:00+04:00",
+        "maghrib": "2025-09-07T18:35:00+04:00",
+        "isha": "2025-09-07T19:50:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "day_name": "Monday",
+      "hijri_date": "16/3/1447",
+      "input": {
+        "date": "2025-09-08",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-08T04:44:00+04:00",
+        "syuruk": "2025-09-08T05:59:00+04:00",
+        "dhuhr": "2025-09-08T12:19:00+04:00",
+        "asr": "2025-09-08T15:46:00+04:00",
+        "maghrib": "2025-09-08T18:34:00+04:00",
+        "isha": "2025-09-08T19:49:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "day_name": "Tuesday",
+      "hijri_date": "17/3/1447",
+      "input": {
+        "date": "2025-09-09",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-09T04:44:00+04:00",
+        "syuruk": "2025-09-09T05:59:00+04:00",
+        "dhuhr": "2025-09-09T12:19:00+04:00",
+        "asr": "2025-09-09T15:46:00+04:00",
+        "maghrib": "2025-09-09T18:33:00+04:00",
+        "isha": "2025-09-09T19:48:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "day_name": "Wednesday",
+      "hijri_date": "18/3/1447",
+      "input": {
+        "date": "2025-09-10",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-10T04:45:00+04:00",
+        "syuruk": "2025-09-10T06:00:00+04:00",
+        "dhuhr": "2025-09-10T12:19:00+04:00",
+        "asr": "2025-09-10T15:45:00+04:00",
+        "maghrib": "2025-09-10T18:32:00+04:00",
+        "isha": "2025-09-10T19:47:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "day_name": "Thursday",
+      "hijri_date": "19/3/1447",
+      "input": {
+        "date": "2025-09-11",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-11T04:45:00+04:00",
+        "syuruk": "2025-09-11T06:00:00+04:00",
+        "dhuhr": "2025-09-11T12:18:00+04:00",
+        "asr": "2025-09-11T15:45:00+04:00",
+        "maghrib": "2025-09-11T18:31:00+04:00",
+        "isha": "2025-09-11T19:45:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "day_name": "Friday",
+      "hijri_date": "20/3/1447",
+      "input": {
+        "date": "2025-09-12",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-12T04:46:00+04:00",
+        "syuruk": "2025-09-12T06:00:00+04:00",
+        "dhuhr": "2025-09-12T12:18:00+04:00",
+        "asr": "2025-09-12T15:44:00+04:00",
+        "maghrib": "2025-09-12T18:30:00+04:00",
+        "isha": "2025-09-12T19:44:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "day_name": "Saturday",
+      "hijri_date": "21/3/1447",
+      "input": {
+        "date": "2025-09-13",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-13T04:46:00+04:00",
+        "syuruk": "2025-09-13T06:01:00+04:00",
+        "dhuhr": "2025-09-13T12:18:00+04:00",
+        "asr": "2025-09-13T15:44:00+04:00",
+        "maghrib": "2025-09-13T18:29:00+04:00",
+        "isha": "2025-09-13T19:43:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "day_name": "Sunday",
+      "hijri_date": "22/3/1447",
+      "input": {
+        "date": "2025-09-14",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-14T04:47:00+04:00",
+        "syuruk": "2025-09-14T06:01:00+04:00",
+        "dhuhr": "2025-09-14T12:17:00+04:00",
+        "asr": "2025-09-14T15:43:00+04:00",
+        "maghrib": "2025-09-14T18:28:00+04:00",
+        "isha": "2025-09-14T19:42:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "day_name": "Monday",
+      "hijri_date": "23/3/1447",
+      "input": {
+        "date": "2025-09-15",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-15T04:47:00+04:00",
+        "syuruk": "2025-09-15T06:01:00+04:00",
+        "dhuhr": "2025-09-15T12:17:00+04:00",
+        "asr": "2025-09-15T15:43:00+04:00",
+        "maghrib": "2025-09-15T18:27:00+04:00",
+        "isha": "2025-09-15T19:41:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "day_name": "Tuesday",
+      "hijri_date": "24/3/1447",
+      "input": {
+        "date": "2025-09-16",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-16T04:48:00+04:00",
+        "syuruk": "2025-09-16T06:02:00+04:00",
+        "dhuhr": "2025-09-16T12:17:00+04:00",
+        "asr": "2025-09-16T15:42:00+04:00",
+        "maghrib": "2025-09-16T18:25:00+04:00",
+        "isha": "2025-09-16T19:40:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "day_name": "Wednesday",
+      "hijri_date": "25/3/1447",
+      "input": {
+        "date": "2025-09-17",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-17T04:48:00+04:00",
+        "syuruk": "2025-09-17T06:02:00+04:00",
+        "dhuhr": "2025-09-17T12:16:00+04:00",
+        "asr": "2025-09-17T15:42:00+04:00",
+        "maghrib": "2025-09-17T18:24:00+04:00",
+        "isha": "2025-09-17T19:38:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "day_name": "Thursday",
+      "hijri_date": "26/3/1447",
+      "input": {
+        "date": "2025-09-18",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-18T04:48:00+04:00",
+        "syuruk": "2025-09-18T06:02:00+04:00",
+        "dhuhr": "2025-09-18T12:16:00+04:00",
+        "asr": "2025-09-18T15:41:00+04:00",
+        "maghrib": "2025-09-18T18:23:00+04:00",
+        "isha": "2025-09-18T19:37:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "day_name": "Friday",
+      "hijri_date": "27/3/1447",
+      "input": {
+        "date": "2025-09-19",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-19T04:49:00+04:00",
+        "syuruk": "2025-09-19T06:03:00+04:00",
+        "dhuhr": "2025-09-19T12:15:00+04:00",
+        "asr": "2025-09-19T15:41:00+04:00",
+        "maghrib": "2025-09-19T18:22:00+04:00",
+        "isha": "2025-09-19T19:36:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "day_name": "Saturday",
+      "hijri_date": "28/3/1447",
+      "input": {
+        "date": "2025-09-20",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-20T04:49:00+04:00",
+        "syuruk": "2025-09-20T06:03:00+04:00",
+        "dhuhr": "2025-09-20T12:15:00+04:00",
+        "asr": "2025-09-20T15:40:00+04:00",
+        "maghrib": "2025-09-20T18:21:00+04:00",
+        "isha": "2025-09-20T19:35:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-21",
+      "day_name": "Sunday",
+      "hijri_date": "29/3/1447",
+      "input": {
+        "date": "2025-09-21",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-21T04:50:00+04:00",
+        "syuruk": "2025-09-21T06:04:00+04:00",
+        "dhuhr": "2025-09-21T12:15:00+04:00",
+        "asr": "2025-09-21T15:39:00+04:00",
+        "maghrib": "2025-09-21T18:20:00+04:00",
+        "isha": "2025-09-21T19:34:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "day_name": "Monday",
+      "hijri_date": "30/3/1447",
+      "input": {
+        "date": "2025-09-22",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-22T04:50:00+04:00",
+        "syuruk": "2025-09-22T06:04:00+04:00",
+        "dhuhr": "2025-09-22T12:14:00+04:00",
+        "asr": "2025-09-22T15:39:00+04:00",
+        "maghrib": "2025-09-22T18:19:00+04:00",
+        "isha": "2025-09-22T19:33:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "day_name": "Tuesday",
+      "hijri_date": "1/4/1447",
+      "input": {
+        "date": "2025-09-23",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-23T04:51:00+04:00",
+        "syuruk": "2025-09-23T06:04:00+04:00",
+        "dhuhr": "2025-09-23T12:14:00+04:00",
+        "asr": "2025-09-23T15:38:00+04:00",
+        "maghrib": "2025-09-23T18:18:00+04:00",
+        "isha": "2025-09-23T19:32:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "day_name": "Wednesday",
+      "hijri_date": "2/4/1447",
+      "input": {
+        "date": "2025-09-24",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-24T04:51:00+04:00",
+        "syuruk": "2025-09-24T06:05:00+04:00",
+        "dhuhr": "2025-09-24T12:14:00+04:00",
+        "asr": "2025-09-24T15:38:00+04:00",
+        "maghrib": "2025-09-24T18:17:00+04:00",
+        "isha": "2025-09-24T19:30:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "day_name": "Thursday",
+      "hijri_date": "3/4/1447",
+      "input": {
+        "date": "2025-09-25",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-25T04:51:00+04:00",
+        "syuruk": "2025-09-25T06:05:00+04:00",
+        "dhuhr": "2025-09-25T12:13:00+04:00",
+        "asr": "2025-09-25T15:37:00+04:00",
+        "maghrib": "2025-09-25T18:16:00+04:00",
+        "isha": "2025-09-25T19:29:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "day_name": "Friday",
+      "hijri_date": "4/4/1447",
+      "input": {
+        "date": "2025-09-26",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-26T04:52:00+04:00",
+        "syuruk": "2025-09-26T06:05:00+04:00",
+        "dhuhr": "2025-09-26T12:13:00+04:00",
+        "asr": "2025-09-26T15:36:00+04:00",
+        "maghrib": "2025-09-26T18:15:00+04:00",
+        "isha": "2025-09-26T19:28:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "day_name": "Saturday",
+      "hijri_date": "5/4/1447",
+      "input": {
+        "date": "2025-09-27",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-27T04:52:00+04:00",
+        "syuruk": "2025-09-27T06:06:00+04:00",
+        "dhuhr": "2025-09-27T12:13:00+04:00",
+        "asr": "2025-09-27T15:36:00+04:00",
+        "maghrib": "2025-09-27T18:14:00+04:00",
+        "isha": "2025-09-27T19:27:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "day_name": "Sunday",
+      "hijri_date": "6/4/1447",
+      "input": {
+        "date": "2025-09-28",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-28T04:53:00+04:00",
+        "syuruk": "2025-09-28T06:06:00+04:00",
+        "dhuhr": "2025-09-28T12:12:00+04:00",
+        "asr": "2025-09-28T15:35:00+04:00",
+        "maghrib": "2025-09-28T18:12:00+04:00",
+        "isha": "2025-09-28T19:26:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "day_name": "Monday",
+      "hijri_date": "7/4/1447",
+      "input": {
+        "date": "2025-09-29",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-29T04:53:00+04:00",
+        "syuruk": "2025-09-29T06:07:00+04:00",
+        "dhuhr": "2025-09-29T12:12:00+04:00",
+        "asr": "2025-09-29T15:35:00+04:00",
+        "maghrib": "2025-09-29T18:11:00+04:00",
+        "isha": "2025-09-29T19:25:00+04:00"
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "day_name": "Tuesday",
+      "hijri_date": "8/4/1447",
+      "input": {
+        "date": "2025-09-30",
+        "coordinates": [25.276987, 55.296249],
+        "method": "Dubai",
+        "timezone": "Asia/Dubai",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-30T04:54:00+04:00",
+        "syuruk": "2025-09-30T06:07:00+04:00",
+        "dhuhr": "2025-09-30T12:12:00+04:00",
+        "asr": "2025-09-30T15:34:00+04:00",
+        "maghrib": "2025-09-30T18:10:00+04:00",
+        "isha": "2025-09-30T19:24:00+04:00"
+      }
+    }
+  ]
+}

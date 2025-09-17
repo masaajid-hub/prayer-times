@@ -1,0 +1,128 @@
+{
+  "title": "Standardized Test Data Schema",
+  "description": "Consistent format for all Islamic prayer time test data",
+  "version": "1.1.0",
+  "standardized_date": "2025-09-16T09:30:00.000Z",
+  "schema": {
+    "metadata": {
+      "source": "string - Description of data source",
+      "authority": "string - Official Islamic authority or organization name",
+      "official_url": "string - Official website URL",
+      "fetched_date": "string - Date when data was obtained (YYYY-MM-DD)",
+      "tier": "number - 1 for official authority, 2 for reference implementation",
+      "quality": "string - official_current | official_government | official_committee | reference_validation",
+      "accuracy_target": "string - Expected accuracy (e.g., ±1 minute)",
+      "data_year": "string - Year of the prayer time data",
+      "method": "string - Calculation method name (PascalCase)",
+      "coordinates": {
+        "latitude": "number - Geographic latitude in decimal degrees",
+        "longitude": "number - Geographic longitude in decimal degrees"
+      },
+      "timezone": "string - IANA timezone identifier",
+      "location": "string - City, Country or descriptive location",
+      "asr_school": "string - Standard | Hanafi (optional, defaults to Standard)",
+      "data_count": "number - Total number of test cases",
+      "reference_coordinates": "string - Original coordinate format from source (optional)",
+      "api_method": "string - API-specific method identifier (optional)",
+      "notes": "string - Additional notes about the data source (optional)"
+    },
+    "testCases": [
+      {
+        "date": "string - ISO date format YYYY-MM-DD",
+        "hijri_date": "string - Hijri date in original format (optional)",
+        "day_name": "string - Day of week name (optional)",
+        "input": {
+          "date": "string - ISO date format YYYY-MM-DD",
+          "coordinates": ["number - latitude", "number - longitude"],
+          "method": "string - PascalCase method name",
+          "timezone": "string - IANA timezone identifier",
+          "asrSchool": "string - Standard | Hanafi (optional)",
+          "highLatitudeRule": "string - NightMiddle | SeventhOfNight | TwilightAngle (optional)"
+        },
+        "expected": {
+          "fajr": "string - ISO datetime with timezone (YYYY-MM-DDTHH:MM:SS+TZ:TZ)",
+          "syuruk": "string - ISO datetime with timezone (YYYY-MM-DDTHH:MM:SS+TZ:TZ)",
+          "dhuhr": "string - ISO datetime with timezone (YYYY-MM-DDTHH:MM:SS+TZ:TZ)",
+          "asr": "string - ISO datetime with timezone (YYYY-MM-DDTHH:MM:SS+TZ:TZ)",
+          "maghrib": "string - ISO datetime with timezone (YYYY-MM-DDTHH:MM:SS+TZ:TZ)",
+          "isha": "string - ISO datetime with timezone (YYYY-MM-DDTHH:MM:SS+TZ:TZ)"
+        }
+      }
+    ]
+  },
+  "data_quality_tiers": {
+    "1": {
+      "name": "Official Authority",
+      "description": "Data from recognized Islamic authorities",
+      "accuracy_expectation": "±1-2 minutes",
+      "examples": [
+        "JAKIM",
+        "MUIS",
+        "Egyptian Survey Authority",
+        "Qatar Ministry"
+      ]
+    },
+    "2": {
+      "name": "Reference Implementation",
+      "description": "Generated using established reference libraries",
+      "accuracy_expectation": "Match reference implementation exactly",
+      "examples": ["adhan-js generated data", "PrayTimes.org calculations"]
+    }
+  },
+  "quality_types": {
+    "official_current": "Current year data from official authority",
+    "official_government": "Government-issued Islamic authority data",
+    "official_committee": "Recognized Islamic committee or organization",
+    "reference_validation": "Generated for validation against reference implementation"
+  },
+  "method_mappings": {
+    "QATAR": "Qatar",
+    "JAKIM": "JAKIM",
+    "KEMENAG": "Kemenag",
+    "TURKEY": "Turkey",
+    "ISNA": "ISNA",
+    "EGYPT": "Egypt",
+    "MWL": "MWL",
+    "JAFARI": "Jafari",
+    "KARACHI": "Karachi",
+    "TEHRAN": "Tehran",
+    "RUSSIA": "Russia",
+    "FRANCE12": "France12",
+    "FRANCE15": "France15",
+    "FRANCE18": "France18",
+    "MOONSIGHTING": "Moonsighting",
+    "UMM_AL_QURA": "UmmAlQura",
+    "DUBAI": "Dubai",
+    "SINGAPORE": "Singapore"
+  },
+  "coordinate_formats": {
+    "schema_format": {
+      "latitude": "number",
+      "longitude": "number"
+    },
+    "input_array_format": ["number", "number"],
+    "note": "Metadata uses object format, input uses array format for consistency with library API"
+  },
+  "timezone_requirements": {
+    "format": "IANA timezone identifiers (e.g., Asia/Dubai, Europe/London)",
+    "prayer_times": "All prayer times must include timezone offset in ISO format",
+    "examples": ["2025-09-01T05:44:00+08:00", "2025-01-01T06:25:00+01:00"]
+  },
+  "validation_rules": [
+    "All prayer times must be valid ISO datetime strings with timezone",
+    "Coordinates must be valid latitude (-90 to 90) and longitude (-180 to 180)",
+    "Method names must match the method_mappings PascalCase format",
+    "Timezone must be valid IANA timezone identifier",
+    "Date format must be YYYY-MM-DD in both date field and input.date",
+    "Optional fields can be omitted but must follow specified format when present"
+  ],
+  "notes": [
+    "Prayer time property 'syuruk' is used consistently (not 'sunrise')",
+    "Metadata coordinates use object format {latitude, longitude}",
+    "Input coordinates use array format [latitude, longitude]",
+    "All timestamps use ISO format with timezone information",
+    "Method names are standardized to PascalCase",
+    "Tier 1 = Official authority data, Tier 2 = Reference implementation",
+    "Optional fields include: hijri_date, day_name, reference_coordinates, api_method, notes"
+  ]
+}

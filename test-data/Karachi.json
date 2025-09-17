@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "source": "Karachi Method Reference Implementation",
+    "authority": "Generated Reference Data (Not Official Authority)",
+    "official_url": "https://github.com/batoulapps/adhan-js",
+    "fetched_date": "2025-09-16",
+    "tier": 2,
+    "quality": "reference_validation",
+    "accuracy_target": "Reference implementation matching",
+    "data_year": "2025",
+    "method": "Karachi",
+    "coordinates": {
+      "latitude": 24.8607,
+      "longitude": 67.0011
+    },
+    "timezone": "Asia/Karachi",
+    "location": "Karachi, Pakistan",
+    "asr_school": "Standard",
+    "data_count": 30,
+    "notes": "Generated using adhan-js Karachi method - University of Islamic Sciences, Karachi (18°/18°)"
+  },
+  "testCases": [
+    {
+      "date": "2025-09-01",
+      "input": {
+        "date": "2025-09-01",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-01T04:55:00+05:00",
+        "syuruk": "2025-09-01T06:13:00+05:00",
+        "dhuhr": "2025-09-01T12:33:00+05:00",
+        "asr": "2025-09-01T16:00:00+05:00",
+        "maghrib": "2025-09-01T18:51:00+05:00",
+        "isha": "2025-09-01T20:08:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "input": {
+        "date": "2025-09-02",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-02T04:55:00+05:00",
+        "syuruk": "2025-09-02T06:13:00+05:00",
+        "dhuhr": "2025-09-02T12:33:00+05:00",
+        "asr": "2025-09-02T16:00:00+05:00",
+        "maghrib": "2025-09-02T18:50:00+05:00",
+        "isha": "2025-09-02T20:07:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "input": {
+        "date": "2025-09-03",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-03T04:56:00+05:00",
+        "syuruk": "2025-09-03T06:14:00+05:00",
+        "dhuhr": "2025-09-03T12:32:00+05:00",
+        "asr": "2025-09-03T16:00:00+05:00",
+        "maghrib": "2025-09-03T18:49:00+05:00",
+        "isha": "2025-09-03T20:06:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "input": {
+        "date": "2025-09-04",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-04T04:56:00+05:00",
+        "syuruk": "2025-09-04T06:14:00+05:00",
+        "dhuhr": "2025-09-04T12:32:00+05:00",
+        "asr": "2025-09-04T15:59:00+05:00",
+        "maghrib": "2025-09-04T18:48:00+05:00",
+        "isha": "2025-09-04T20:05:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "input": {
+        "date": "2025-09-05",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-05T04:57:00+05:00",
+        "syuruk": "2025-09-05T06:14:00+05:00",
+        "dhuhr": "2025-09-05T12:32:00+05:00",
+        "asr": "2025-09-05T15:59:00+05:00",
+        "maghrib": "2025-09-05T18:47:00+05:00",
+        "isha": "2025-09-05T20:04:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "input": {
+        "date": "2025-09-06",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-06T04:57:00+05:00",
+        "syuruk": "2025-09-06T06:15:00+05:00",
+        "dhuhr": "2025-09-06T12:31:00+05:00",
+        "asr": "2025-09-06T15:59:00+05:00",
+        "maghrib": "2025-09-06T18:46:00+05:00",
+        "isha": "2025-09-06T20:03:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-07",
+      "input": {
+        "date": "2025-09-07",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-07T04:58:00+05:00",
+        "syuruk": "2025-09-07T06:15:00+05:00",
+        "dhuhr": "2025-09-07T12:31:00+05:00",
+        "asr": "2025-09-07T15:58:00+05:00",
+        "maghrib": "2025-09-07T18:44:00+05:00",
+        "isha": "2025-09-07T20:02:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "input": {
+        "date": "2025-09-08",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-08T04:58:00+05:00",
+        "syuruk": "2025-09-08T06:16:00+05:00",
+        "dhuhr": "2025-09-08T12:31:00+05:00",
+        "asr": "2025-09-08T15:58:00+05:00",
+        "maghrib": "2025-09-08T18:43:00+05:00",
+        "isha": "2025-09-08T20:00:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "input": {
+        "date": "2025-09-09",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-09T04:59:00+05:00",
+        "syuruk": "2025-09-09T06:16:00+05:00",
+        "dhuhr": "2025-09-09T12:30:00+05:00",
+        "asr": "2025-09-09T15:57:00+05:00",
+        "maghrib": "2025-09-09T18:42:00+05:00",
+        "isha": "2025-09-09T19:59:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "input": {
+        "date": "2025-09-10",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-10T04:59:00+05:00",
+        "syuruk": "2025-09-10T06:16:00+05:00",
+        "dhuhr": "2025-09-10T12:30:00+05:00",
+        "asr": "2025-09-10T15:57:00+05:00",
+        "maghrib": "2025-09-10T18:41:00+05:00",
+        "isha": "2025-09-10T19:58:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "input": {
+        "date": "2025-09-11",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-11T05:00:00+05:00",
+        "syuruk": "2025-09-11T06:17:00+05:00",
+        "dhuhr": "2025-09-11T12:30:00+05:00",
+        "asr": "2025-09-11T15:56:00+05:00",
+        "maghrib": "2025-09-11T18:40:00+05:00",
+        "isha": "2025-09-11T19:57:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "input": {
+        "date": "2025-09-12",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-12T05:00:00+05:00",
+        "syuruk": "2025-09-12T06:17:00+05:00",
+        "dhuhr": "2025-09-12T12:29:00+05:00",
+        "asr": "2025-09-12T15:56:00+05:00",
+        "maghrib": "2025-09-12T18:39:00+05:00",
+        "isha": "2025-09-12T19:56:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-13",
+      "input": {
+        "date": "2025-09-13",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-13T05:01:00+05:00",
+        "syuruk": "2025-09-13T06:17:00+05:00",
+        "dhuhr": "2025-09-13T12:29:00+05:00",
+        "asr": "2025-09-13T15:55:00+05:00",
+        "maghrib": "2025-09-13T18:38:00+05:00",
+        "isha": "2025-09-13T19:55:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "input": {
+        "date": "2025-09-14",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-14T05:01:00+05:00",
+        "syuruk": "2025-09-14T06:18:00+05:00",
+        "dhuhr": "2025-09-14T12:29:00+05:00",
+        "asr": "2025-09-14T15:55:00+05:00",
+        "maghrib": "2025-09-14T18:37:00+05:00",
+        "isha": "2025-09-14T19:53:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "input": {
+        "date": "2025-09-15",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-15T05:02:00+05:00",
+        "syuruk": "2025-09-15T06:18:00+05:00",
+        "dhuhr": "2025-09-15T12:28:00+05:00",
+        "asr": "2025-09-15T15:54:00+05:00",
+        "maghrib": "2025-09-15T18:36:00+05:00",
+        "isha": "2025-09-15T19:52:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "input": {
+        "date": "2025-09-16",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-16T05:02:00+05:00",
+        "syuruk": "2025-09-16T06:18:00+05:00",
+        "dhuhr": "2025-09-16T12:28:00+05:00",
+        "asr": "2025-09-16T15:54:00+05:00",
+        "maghrib": "2025-09-16T18:35:00+05:00",
+        "isha": "2025-09-16T19:51:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "input": {
+        "date": "2025-09-17",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-17T05:02:00+05:00",
+        "syuruk": "2025-09-17T06:19:00+05:00",
+        "dhuhr": "2025-09-17T12:27:00+05:00",
+        "asr": "2025-09-17T15:53:00+05:00",
+        "maghrib": "2025-09-17T18:34:00+05:00",
+        "isha": "2025-09-17T19:50:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "input": {
+        "date": "2025-09-18",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-18T05:03:00+05:00",
+        "syuruk": "2025-09-18T06:19:00+05:00",
+        "dhuhr": "2025-09-18T12:27:00+05:00",
+        "asr": "2025-09-18T15:53:00+05:00",
+        "maghrib": "2025-09-18T18:33:00+05:00",
+        "isha": "2025-09-18T19:49:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "input": {
+        "date": "2025-09-19",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-19T05:03:00+05:00",
+        "syuruk": "2025-09-19T06:19:00+05:00",
+        "dhuhr": "2025-09-19T12:27:00+05:00",
+        "asr": "2025-09-19T15:52:00+05:00",
+        "maghrib": "2025-09-19T18:32:00+05:00",
+        "isha": "2025-09-19T19:48:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-20",
+      "input": {
+        "date": "2025-09-20",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-20T05:04:00+05:00",
+        "syuruk": "2025-09-20T06:20:00+05:00",
+        "dhuhr": "2025-09-20T12:26:00+05:00",
+        "asr": "2025-09-20T15:52:00+05:00",
+        "maghrib": "2025-09-20T18:31:00+05:00",
+        "isha": "2025-09-20T19:47:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-21",
+      "input": {
+        "date": "2025-09-21",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-21T05:04:00+05:00",
+        "syuruk": "2025-09-21T06:20:00+05:00",
+        "dhuhr": "2025-09-21T12:26:00+05:00",
+        "asr": "2025-09-21T15:51:00+05:00",
+        "maghrib": "2025-09-21T18:29:00+05:00",
+        "isha": "2025-09-21T19:45:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "input": {
+        "date": "2025-09-22",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-22T05:05:00+05:00",
+        "syuruk": "2025-09-22T06:21:00+05:00",
+        "dhuhr": "2025-09-22T12:26:00+05:00",
+        "asr": "2025-09-22T15:50:00+05:00",
+        "maghrib": "2025-09-22T18:28:00+05:00",
+        "isha": "2025-09-22T19:44:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "input": {
+        "date": "2025-09-23",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-23T05:05:00+05:00",
+        "syuruk": "2025-09-23T06:21:00+05:00",
+        "dhuhr": "2025-09-23T12:25:00+05:00",
+        "asr": "2025-09-23T15:50:00+05:00",
+        "maghrib": "2025-09-23T18:27:00+05:00",
+        "isha": "2025-09-23T19:43:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "input": {
+        "date": "2025-09-24",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-24T05:05:00+05:00",
+        "syuruk": "2025-09-24T06:21:00+05:00",
+        "dhuhr": "2025-09-24T12:25:00+05:00",
+        "asr": "2025-09-24T15:49:00+05:00",
+        "maghrib": "2025-09-24T18:26:00+05:00",
+        "isha": "2025-09-24T19:42:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "input": {
+        "date": "2025-09-25",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-25T05:06:00+05:00",
+        "syuruk": "2025-09-25T06:22:00+05:00",
+        "dhuhr": "2025-09-25T12:25:00+05:00",
+        "asr": "2025-09-25T15:49:00+05:00",
+        "maghrib": "2025-09-25T18:25:00+05:00",
+        "isha": "2025-09-25T19:41:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "input": {
+        "date": "2025-09-26",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-26T05:06:00+05:00",
+        "syuruk": "2025-09-26T06:22:00+05:00",
+        "dhuhr": "2025-09-26T12:24:00+05:00",
+        "asr": "2025-09-26T15:48:00+05:00",
+        "maghrib": "2025-09-26T18:24:00+05:00",
+        "isha": "2025-09-26T19:40:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "input": {
+        "date": "2025-09-27",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-27T05:07:00+05:00",
+        "syuruk": "2025-09-27T06:22:00+05:00",
+        "dhuhr": "2025-09-27T12:24:00+05:00",
+        "asr": "2025-09-27T15:48:00+05:00",
+        "maghrib": "2025-09-27T18:23:00+05:00",
+        "isha": "2025-09-27T19:39:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "input": {
+        "date": "2025-09-28",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-28T05:07:00+05:00",
+        "syuruk": "2025-09-28T06:23:00+05:00",
+        "dhuhr": "2025-09-28T12:24:00+05:00",
+        "asr": "2025-09-28T15:47:00+05:00",
+        "maghrib": "2025-09-28T18:22:00+05:00",
+        "isha": "2025-09-28T19:38:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "input": {
+        "date": "2025-09-29",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-29T05:07:00+05:00",
+        "syuruk": "2025-09-29T06:23:00+05:00",
+        "dhuhr": "2025-09-29T12:23:00+05:00",
+        "asr": "2025-09-29T15:46:00+05:00",
+        "maghrib": "2025-09-29T18:21:00+05:00",
+        "isha": "2025-09-29T19:37:00+05:00"
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "input": {
+        "date": "2025-09-30",
+        "method": "Karachi",
+        "coordinates": [24.8607, 67.0011],
+        "timezone": "Asia/Karachi",
+        "asrSchool": "Standard",
+        "highLatitudeRule": "NightMiddle"
+      },
+      "expected": {
+        "fajr": "2025-09-30T05:08:00+05:00",
+        "syuruk": "2025-09-30T06:24:00+05:00",
+        "dhuhr": "2025-09-30T12:23:00+05:00",
+        "asr": "2025-09-30T15:46:00+05:00",
+        "maghrib": "2025-09-30T18:20:00+05:00",
+        "isha": "2025-09-30T19:36:00+05:00"
+      }
+    }
+  ]
+}
