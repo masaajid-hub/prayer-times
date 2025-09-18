@@ -46,20 +46,45 @@ jobs:
             echo "DIST_TAG=latest" >> $GITHUB_OUTPUT
           fi
 
-      - name: Verify package.json version (optional but recommended)
+      - name: Verify and update package.json version
         run: |
-          EXPECTED_VERSION="${{ steps.get_version.outputs.VERSION }}"
-          # Use Bun to execute a simple JavaScript file that prints the version
+          TAG_VERSION="${{ steps.get_version.outputs.VERSION }}"
+
+          # Get current package.json version
           echo "console.log(require('./package.json').version);" > get_pkg_version.js
           PACKAGE_JSON_VERSION=$(bun run get_pkg_version.js)
-          rm get_pkg_version.js # Clean up the temporary file
+          rm get_pkg_version.js
 
-          echo "Git Tag Version: $EXPECTED_VERSION"
+          echo "Git Tag Version: $TAG_VERSION"
           echo "package.json Version: $PACKAGE_JSON_VERSION"
-          if [ "$EXPECTED_VERSION" != "$PACKAGE_JSON_VERSION" ]; then
-            echo "Error: package.json version ($PACKAGE_JSON_VERSION) does not match Git tag version ($EXPECTED_VERSION)."
-            echo "Please ensure package.json is updated and committed before tagging."
+
+          # Extract base version from both (everything before the first '-')
+          TAG_BASE=$(echo "$TAG_VERSION" | cut -d'-' -f1)
+          PKG_BASE=$(echo "$PACKAGE_JSON_VERSION" | cut -d'-' -f1)
+
+          echo "Tag Base Version: $TAG_BASE"
+          echo "Package Base Version: $PKG_BASE"
+
+          # Verify base versions match
+          if [ "$TAG_BASE" != "$PKG_BASE" ]; then
+            echo "Error: Base version mismatch. Tag base ($TAG_BASE) must match package.json base ($PKG_BASE)."
+            echo "Please update package.json to have base version $TAG_BASE"
             exit 1
+          fi
+
+          # Update package.json version to match tag version
+          if [ "$TAG_VERSION" != "$PACKAGE_JSON_VERSION" ]; then
+            echo "Updating package.json version from $PACKAGE_JSON_VERSION to $TAG_VERSION"
+            # Use node to update package.json version
+            node -e "
+              const fs = require('fs');
+              const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+              pkg.version = '$TAG_VERSION';
+              fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2) + '\n');
+            "
+            echo "package.json version updated successfully"
+          else
+            echo "package.json version already matches tag version"
           fi
 
       - name: Publish to npm with Bun
